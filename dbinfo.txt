@@ -1,0 +1,17 @@
+oracle
+driver=oracle.jdbc.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:xe
+user=hr
+pw=hr
+
+mariadb
+_driver=org.sqlite.JDBC
+_url=jdbc:mysql://localhost:3306/sboard?characterEncoding=utf8&amp;useSSL=false
+_user=root
+_pw=1234
+
+mariadb    
+__driver=org.mariadb.jdbc.Driver
+__url=jdbc:mariadb://127.0.0.1:3306/mysql
+__user=root
+__pw=1234
